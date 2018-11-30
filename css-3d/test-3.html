@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>选择木马 幻灯片开发</title>
+    <style type="text/css">
+        ul{margin: 0;padding: 0;font-size: 0;}
+        /*
+        .wrapper{
+            font-size: 0;
+            transform-style: preserve-3d;
+            perspective: 300px;
+        }
+
+        img:nth-child(1){
+            transform: rotateY(0deg) translateZ(0px);
+        }
+        img:nth-child(2){
+            transform: rotateY(0deg) translateZ(50px);
+        }
+        img:nth-child(3){
+            transform: rotateY(0deg) translateZ(100px);
+        }
+        img:nth-child(4){
+            transform: rotateY(0deg) translateZ(50px);
+        }
+        img:nth-child(5){
+            transform: rotateY(0deg) translateZ(0px);
+        }
+        */
+        .btn{
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            display: inline-block;
+            background: #ccc;
+        }
+        .wrapper{
+            font-size: 0;
+            position: relative;
+            height: 150px;
+        }
+        .wrapper img{
+            position: absolute;
+        }
+        /*img:nth-child(1){*/
+            /*visibility: hidden;*/
+        /*}*/
+        /*img:nth-child(7){*/
+            /*visibility: hidden;*/
+        /*}*/
+    </style>
+</head>
+<body style="padding: 30px;">
+<!--节点属性配置参数（封装插件）：幻灯片宽度、幻灯片高度、幻灯片第一帧宽度、幻灯片第一帧高度、图片显示比例关系、轮播速度、是否自动播放、播放间隔时间、上下对齐模式-->
+<div style="background: #ccc;">
+    <div class="wrapper" id="win">
+        <img src="img/5.jpg" style="width: 0px;top: 0px; left: -10px; z-index: 216;">
+        <img src="img/1.jpg" style="width: 70px;top: 0px; left:0px; z-index: 216;">
+        <img src="img/2.jpg" style="width: 100px;top:10px; left: 10px; z-index: 216;">
+        <img src="img/3.jpg" style="width: 200px;top: 30px; left: 15px; z-index: 216;">
+        <img src="img/4.jpg" style="width: 100px;top: 10px; right: 10px; z-index: 216;">
+        <img src="img/5.jpg" style="width: 70px;top: 0px; right:0px; z-index: 216;">
+        <img src="img/1.jpg" style="width: 0px;top: 0px; right:-10px; z-index: 216;">
+    </div>
+</div>
+<div style="padding: 20px">
+<div class="btn" id="left">left</div>
+<div class="btn" id="right">right</div>
+</div>
+<script>
+    var wrapper = document.getElementById("win");
+    // p.onclick = function () {
+    //     var lastDom = p.lastChild.cloneNode(true);
+    //     p.insertBefore(lastDom,p.childNodes[1]);
+    //     p.removeChild(p.lastChild);
+    // }
+
+    /*
+    var lastP, curP, deltax;
+    var reg = /rotate\((.)\)/;
+    window.addEventListener('mousemove', function (e) {
+        if(lastP === undefined){
+            lastP = e.pageX
+        }
+        curP = e.pageX;
+        deltax = curP - lastP;
+        p.style.transform
+    })
+    */
+
+    var lefts =  [10, 50, 100, 200, 400, 500, 600];
+    var tops =   [0,  0,  10,  30,  10,  0,   0];
+    var widths = [0,  70, 100, 200, 100, 70,  0];
+
+    var timer;
+    var count = 10, counter=1;
+    var rotation = 0;
+    function rotate() {
+        var wrapper = document.getElementById("win");
+        var childs = wrapper.getElementsByTagName("img");
+        var len = childs.length;
+        for(var i=0; i<len; i++){
+            var child = childs[i];
+            if(rotation > 0 && i === 6){
+               continue;
+            }
+            if(rotation < 0 && i === 0){
+                continue;
+            }
+            child.style.left = lefts[i] + (lefts[i+rotation]-lefts[i])*counter/10 + 'px';
+            child.style.top = tops[i] + (tops[i+rotation]-tops[i])*counter/10 + 'px';
+            child.style.width = widths[i] + (widths[i+rotation]-widths[i])*counter/10 + 'px';
+        }
+
+        counter++;
+        if (counter === 11) {
+
+            // 5 1 2 3 4 5 1
+            // 4 5 1 2 3 4 5
+            // 3 4 5 1 2 3 4
+            if(rotation > 0) {
+                wrapper.removeChild(childs[len-1]);
+                var lastImg = childs[childs.length-2].cloneNode(true);
+                // var firstDom = wrapper.firstChild.cloneNode(true);
+                wrapper.insertBefore(lastImg,wrapper.children[0]);
+            }else if (rotation < 0){
+                wrapper.removeChild(childs[0]);
+                var lastImg = childs[1].cloneNode(true);
+                // var firstDom = wrapper.firstChild.cloneNode(true);
+                wrapper.appendChild(lastImg);
+            }
+
+
+            clearInterval(timer);
+            timer=0;
+            counter = 1;
+        }
+    }
+    function init() {
+        var wrapper = document.getElementById("win");
+        var childs = wrapper.getElementsByTagName("img");
+        var len = childs.length;
+        for(var i=0; i<len; i++){
+            var child = childs[i];
+            child.style.left = lefts[i] + 'px';
+            child.style.top = tops[i] + 'px';
+            child.style.width = widths[i] + 'px';
+        }
+    }
+    init();
+    
+    document.getElementById('left').onclick = function (e) {
+        rotation = -1;
+        timer || (timer=setInterval(rotate,10));
+    }
+
+    document.getElementById('right').onclick = function (e) {
+        rotation = 1;
+        timer || (timer=setInterval(rotate,10));
+    }
+</script>
+</body>
+</html>

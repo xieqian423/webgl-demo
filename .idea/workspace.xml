@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5dfb5946-d9d3-4dbc-9c68-6034f6053bab" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vue_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/Template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/css/carrousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/crate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/js/carrousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/test-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/test-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/test-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-3d/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/1-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/9-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/videos/1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/videos/Anniversary.ogv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/videos/Floating Head.ogv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/videos/Moon_transit_of_sun_large.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter/videos/Motus et bouche cousue.ogv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter1/1-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter1/1-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter1/1-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter1/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter1/pic/2013-07-04_133355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter2/2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter2/2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter2/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/3-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/3-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/3-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/3-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter3/js/tween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/4-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/js/dat.gui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter4/js/tween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/5-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/js/dat.gui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter5/js/tween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/108.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-1 - 副本 (2).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-1 - 副本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/6-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/a6-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/clock2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/textures/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/textures/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/textures/758px-Canestra_di_frutta_(Caravaggio).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/textures/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter6/textures/crate.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7/7-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/7-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/Detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/controls/FirstPersonControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/controls/PathControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/controls/TrackballControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/controls/TrackballControls2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/loaders/BinaryLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/loaders/VTKLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter7A/models/vtk/bunny.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/1-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/js/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/js/loaders/OBJLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/js/tween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter8/model.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/9-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/camaro/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/camaro/CamaroNoUv_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/camaro/CamaroNoUv_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/f50/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/f50/F50NoUv_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/f50/F50NoUv_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/GallardoNoUv_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/GallardoNoUv_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/parts/gallardo_body_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/parts/gallardo_body_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/parts/gallardo_wheel_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/gallardo/parts/gallardo_wheel_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/VeyronNoUv_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/VeyronNoUv_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/parts/veyron_body_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/parts/veyron_body_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/parts/veyron_wheel_bin.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/obj/veyron/parts/veyron_wheel_bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/negx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/negy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/negz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/posx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/posy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/posz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/textures/cube/Bridge2/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9/three.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9摄像机/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9摄像机/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/chapter9摄像机/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/Detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/Stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/mode/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/mode/htmlmixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/mode/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/codemirror/mode/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/dat.gui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/esprima.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/loaders/BinaryLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/loaders/VTKLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/rawdeflate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/rawinflate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/js/tween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/Detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/WebGL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/AdaptiveToneMappingPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/AfterimagePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/BloomPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/BokehPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/ClearPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/CubeTexturePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/DotScreenPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/EffectComposer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/FilmPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/GlitchPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/HalftonePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/MaskPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/OutlinePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/RenderPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/SAOPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/SMAAPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/SSAARenderPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/SSAOPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/SavePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/ShaderPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/TAARenderPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/TexturePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/postprocessing/UnrealBloomPass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/AfterimageShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BasicShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BleachBypassShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BlendShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BokehShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BokehShader2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/BrightnessContrastShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/ColorCorrectionShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/ColorifyShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/ConvolutionShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/CopyShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/DOFMipMapShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/DepthLimitedBlurShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/DigitalGlitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/DotScreenShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/FXAAShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/FilmShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/FocusShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/FreiChenShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/FresnelShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/GammaCorrectionShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/HalftoneShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/HorizontalBlurShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/HorizontalTiltShiftShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/HueSaturationShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/KaleidoShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/LuminosityHighPassShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/LuminosityShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/MirrorShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/NormalMapShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/OceanShaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/ParallaxShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/PixelShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/RGBShiftShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/SAOShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/SMAAShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/SSAOShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/SepiaShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/SobelOperatorShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/TechnicolorShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/ToneMapShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/TriangleBlurShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/UnpackDepthRGBAShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/VerticalBlurShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/VerticalTiltShiftShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/VignetteShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/VolumeShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/shaders/WaterRefractionShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/libs/stats.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gl-demo/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexGL.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/detect-libc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/needle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/node-gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/node-pre-gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/which" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/press-2281-package-v1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.19946453">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="7-1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter7A/7-1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="6-7.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-7.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+                  <folding>
+                    <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="6-6.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-6.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="645">
+                  <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="4.jpg" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/img/4.jpg">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="2.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/2.jpg">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="4.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/4.jpg">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="a.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/a.jpg">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="crate.gif" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/crate.gif">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file leaf-file-name="clock.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="6-5.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-5.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="clock2.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock2.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gitnode.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitnode.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timerId</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo/1-1.html" />
+        <option value="$PROJECT_DIR$/gl-demo/chapter7A/7-1.html" />
+        <option value="$PROJECT_DIR$/gl-demo/chapter6/6-5.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2385" />
+    <option name="y" value="188" />
+    <option name="width" value="1855" />
+    <option name="height" value="946" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webgl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodejs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dfb5946-d9d3-4dbc-9c68-6034f6053bab" name="Default" comment="" />
+      <created>1531889997425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531889997425</updated>
+      <workItem from="1531889998887" duration="1678000" />
+      <workItem from="1542776131992" duration="80000" />
+      <workItem from="1543370549043" duration="10152000" />
+      <workItem from="1543391047855" duration="375000" />
+      <workItem from="1543399926080" duration="5379000" />
+      <workItem from="1543576945645" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18273000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18171866" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter7A/7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/crate.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/1-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter7A/7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/1-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter7A/7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/1-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter7/7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2295" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter7A/7-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/clock2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/6-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl-demo/chapter6/textures/crate.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitnode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

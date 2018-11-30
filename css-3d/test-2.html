@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #show{position:relative;margin:20px auto;width:800px;border:1px solid #999999;}
+        .item{position:absolute;height:40px;width:60px;background:#999999;border:1px solid #eeeeee;cursor:pointer;}
+    </style>
+    <script type="text/javascript">
+        var len;
+        var showerObj;
+        var listObj;
+        var showerWidth=800;
+        var showerHeight=400;
+        var r;
+        var cR=0;
+        var ccR=0;
+        var timer=0;
+        window.onload=function(){
+            showerObj=document.getElementById("show");
+            listObj=showerObj.getElementsByTagName("div");
+            len=listObj.length;
+            r=Math.PI/180*360/len;
+            for(var i=0;i<len;i++){
+                var item=listObj[i];
+                item.style.top=showerHeight/2+Math.sin(r*i)*showerWidth/2-20+"px";
+                item.style.left=showerWidth/2+Math.cos(r*i)*showerWidth/2-30+"px";
+                item.rotate=(r*i+2*Math.PI)%(2*Math.PI);
+                item.onclick=function(){
+                    cR=Math.PI/2-this.rotate;
+                    timer || (timer=setInterval(rotate,10));
+
+                }
+
+            }
+            var rX=showerObj.offsetLeft+showerWidth/2;
+            var ry=showerObj.offsetTop+showerHeight/2;
+
+            var rotate=function(){
+                ccR=(ccR+2*Math.PI)%(2*Math.PI);
+                if(cR-ccR<0) cR=cR+2*Math.PI;
+                if(cR-ccR<Math.PI){
+                    ccR=ccR+(cR-ccR)/19;
+                }else{
+                    ccR=ccR-(2*Math.PI+ccR-cR)/19;
+
+                }
+
+                if(Math.abs((cR+2*Math.PI)%(2*Math.PI)-(ccR+2*Math.PI)%(2*Math.PI))<Math.PI/720){
+                    ccR=cR;
+                    clearInterval(timer);
+                    timer=0;
+                }
+
+                for(var i=0;i<len;i++){
+                    var item=listObj[i];
+                    var w,h;
+                    var sinR=Math.sin(r*i+ccR);
+                    var cosR=Math.cos(r*i+ccR);
+                    w=60+0.6*60*sinR;
+                    h=(40+0.6*40*sinR);
+                    item.style.cssText +=";width:"+w+"px;height:"+h+"px;top:"+parseInt(showerHeight/2+sinR*showerWidth/2/3-w/2)+"px;left:"+parseInt(showerWidth/2+cosR*showerWidth/2-h/2)+"px;z-index:"+parseInt(showerHeight/2+sinR*showerWidth/2/3-w/2)+";";
+
+                }
+            }
+
+            document.getElementById("l").onclick=function(){
+                cR=(cR+r+2*Math.PI)%(2*Math.PI);
+                timer || (timer=setInterval(rotate,10));
+            }
+            document.getElementById("r").onclick=function(){
+                cR=(cR-r+2*Math.PI)%(2*Math.PI);
+                timer || (timer=setInterval(rotate,10));
+            }
+            rotate();
+        }
+    </script>
+</head>
+<body>
+<input id="l" type="button" value="left">
+<input id="r" type="button" value="right">
+<div id="show">
+    <div class="item" style="width: 60px; height: 40px; top: 170px; left: 780px; z-index: 170;">1</div>
+    <div class="item" style="width: 74.6425px; height: 49.7617px; top: 216px; left: 740px; z-index: 216;">2</div>
+    <div class="item" style="width: 86.7532px; height: 57.8355px; top: 255px; left: 638px; z-index: 255;">3</div>
+    <div class="item" style="width: 94.238px; height: 62.8254px; top: 279px; left: 492px; z-index: 279;">4</div>
+    <div class="item" style="width: 95.8028px; height: 63.8685px; top: 284px; left: 326px; z-index: 284;">5</div>
+    <div class="item" style="width: 91.1769px; height: 60.7846px; top: 269px; left: 169px; z-index: 269;">6</div>
+    <div class="item" style="width: 81.1603px; height: 54.1068px; top: 237px; left: 49px; z-index: 237;">7</div>
+    <div class="item" style="width: 67.4848px; height: 44.9899px; top: 193px; left: -13px; z-index: 193;">8</div>
+    <div class="item" style="width: 52.5152px; height: 35.0101px; top: 146px; left: -8px; z-index: 146;">9</div>
+    <div class="item" style="width: 38.8397px; height: 25.8932px; top: 102px; left: 63px; z-index: 102;">0</div>
+    <div class="item" style="width: 28.8231px; height: 19.2154px; top: 70px; left: 190px; z-index: 70;">a</div>
+    <div class="item" style="width: 24.1972px; height: 16.1315px; top: 55px; left: 350px; z-index: 55;">b</div>
+    <div class="item" style="width: 25.762px; height: 17.1746px; top: 60px; left: 515px; z-index: 60;">1</div>
+    <div class="item" style="width: 33.2468px; height: 22.1645px; top: 84px; left: 656px; z-index: 84;">2</div>
+    <div class="item" style="width: 45.3575px; height: 30.2383px; top: 123px; left: 750px; z-index: 123;">3</div>
+    <!--<img src="img/5.jpg" class="item" style="width: 60px; height: 40px; top: 170px; left: 780px; z-index: 170;">-->
+    <!--<img src="img/1.jpg" class="item" style="width: 74.6425px; height: 49.7617px; top: 216px; left: 740px; z-index: 216;">-->
+    <!--<img src="img/2.jpg" class="item" style="width: 86.7532px; height: 57.8355px; top: 255px; left: 638px; z-index: 255;">-->
+    <!--<img src="img/3.jpg" class="item" style="width: 94.238px; height: 62.8254px; top: 279px; left: 492px; z-index: 279;">-->
+    <!--<img src="img/4.jpg" class="item" style="width: 95.8028px; height: 63.8685px; top: 284px; left: 326px; z-index: 284;">-->
+    <!--<img src="img/5.jpg" class="item" style="width: 91.1769px; height: 60.7846px; top: 269px; left: 169px; z-index: 269;">-->
+    <!--<img src="img/1.jpg" class="item" style="width: 81.1603px; height: 54.1068px; top: 237px; left: 49px; z-index: 237;">-->
+    <!--<img src="img/2.jpg" class="item" style="width: 67.4848px; height: 44.9899px; top: 193px; left: -13px; z-index: 193;">-->
+    <!--<img src="img/3.jpg" class="item" style="width: 52.5152px; height: 35.0101px; top: 146px; left: -8px; z-index: 146;">-->
+    <!--<img src="img/4.jpg" class="item" style="width: 38.8397px; height: 25.8932px; top: 102px; left: 63px; z-index: 102;">-->
+    <!--<img src="img/5.jpg" class="item" style="width: 28.8231px; height: 19.2154px; top: 70px; left: 190px; z-index: 70;">-->
+    <!--<img src="img/1.jpg" class="item"  style="width: 24.1972px; height: 16.1315px; top: 55px; left: 350px; z-index: 55;">-->
+    <!--<img src="img/2.jpg" class="item" style="width: 25.762px; height: 17.1746px; top: 60px; left: 515px; z-index: 60;">-->
+    <!--<img src="img/3.jpg" class="item" style="width: 33.2468px; height: 22.1645px; top: 84px; left: 656px; z-index: 84;">-->
+    <!--<img src="img/4.jpg" class="item" style="width: 45.3575px; height: 30.2383px; top: 123px; left: 750px; z-index: 123;">-->
+</div>
+</body>
+</html>

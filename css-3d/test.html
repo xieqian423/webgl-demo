@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>选择木马 幻灯片开发</title>
+		<style type="text/css">
+			ul{margin: 0;padding: 0;font-size: 0;}
+			.wrapper{
+				font-size: 0;
+				transform-style: preserve-3d;
+				perspective: 300px;
+			}
+
+			img:nth-child(1){
+				/*transform: rotateY(45deg) translateZ(-200px);*/
+				transform: rotateY(0deg) translateZ(0px);
+			}
+			img:nth-child(2){
+				transform: rotateY(0deg) translateZ(50px);
+			}
+			img:nth-child(3){
+				transform: rotateY(0deg) translateZ(100px);
+			}
+			img:nth-child(4){
+				transform: rotateY(0deg) translateZ(50px);
+			}
+			img:nth-child(5){
+				transform: rotateY(0deg) translateZ(0px);
+			}
+		</style>
+	</head>
+	<body style="padding: 30px;background: #ccc;">
+		<!--节点属性配置参数（封装插件）：幻灯片宽度、幻灯片高度、幻灯片第一帧宽度、幻灯片第一帧高度、图片显示比例关系、轮播速度、是否自动播放、播放间隔时间、上下对齐模式-->
+		<div class="wrapper" id="win">
+			<img src="img/1.jpg" width="20%">
+			<img src="img/2.jpg" width="20%">
+			<img src="img/3.jpg" width="20%">
+			<img src="img/4.jpg" width="20%">
+			<img src="img/5.jpg" width="20%">
+		</div>
+		<script>
+			var p = document.getElementById("win");
+			p.onclick = function () {
+                var lastDom = p.lastChild.cloneNode(true);
+                p.insertBefore(lastDom,p.childNodes[1]);
+                p.removeChild(p.lastChild);
+            }
+
+		</script>
+	</body>
+</html>
